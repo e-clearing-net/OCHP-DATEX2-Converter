@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GetChargePointListResponse xmlns="http://ochp.eu/1.4.1">
+    <result>
+        <resultCode>
+            <resultCode>ok</resultCode>
+        </resultCode>
+        <resultDescription ns2:nil="true" xmlns:ns2="http://www.w3.org/2001/XMLSchema-instance"/>
+    </result>
+    <chargePointInfoArray>
+        <evseId>DE*LND*E12345</evseId>
+        <locationId>DELNDL10</locationId>
+        <timestamp>
+            <DateTime>2022-02-21T11:12:57Z</DateTime>
+        </timestamp>
+        <locationName>Test Location Name 500</locationName>
+        <locationNameLang>ENG</locationNameLang>
+        <images>
+            <uri>https://www.operatorlogo.com/logo.jpg</uri>
+            <class>operatorLogo</class>
+            <type>jpeg</type>
+        </images>
+        <relatedResource>
+            <uri>https://www.station-info.com</uri>
+            <class>stationInfo</class>
+        </relatedResource>
+        <chargePointAddress>
+            <houseNumber>200B</houseNumber>
+            <address>Test Street Name</address>
+            <city>Test City</city>
+            <zipCode>ABCDE 1234</zipCode>
+            <country>DEU</country>
+        </chargePointAddress>
+        <chargePointLocation lat="50.000000" lon="-100.000000"/>
+        <relatedLocation name="Test Entrance Name 1234" type="entrance" lat="50.000000" lon="-100.000000"/>
+        <timeZone>Europe/Berlin</timeZone>
+        <openingTimes>
+            <regularHours weekday="1" periodBegin="06:00" periodEnd="22:00"/>
+            <regularHours weekday="2" periodBegin="06:00" periodEnd="22:00"/>
+            <closedCharging>false</closedCharging>
+        </openingTimes>
+        <status>
+            <ChargePointStatusType>Operative</ChargePointStatusType>
+        </status>
+        <statusSchedule>
+            <startDate>
+                <DateTime>2032-02-21T11:12:57Z</DateTime>
+            </startDate>
+            <endDate>
+                <DateTime>2032-03-02T11:12:57Z</DateTime>
+            </endDate>
+            <status>
+                <ChargePointStatusType>Inoperative</ChargePointStatusType>
+            </status>
+        </statusSchedule>
+        <telephoneNumber>+49 123 456 789</telephoneNumber>
+        <location>
+            <GeneralLocationType>parking-lot</GeneralLocationType>
+        </location>
+        <parkingSpot>
+            <parkingId>DE*LND*P123</parkingId>
+            <floorLevel>-2</floorLevel>
+            <parkingSpotNumber>P-234</parkingSpotNumber>
+        </parkingSpot>
+        <restriction>
+            <RestrictionType>evonly</RestrictionType>
+        </restriction>
+        <authMethods>
+            <AuthMethodType>DirectCash</AuthMethodType>
+        </authMethods>
+        <connectors>
+            <connectorStandard>
+                <ConnectorStandard>Chademo</ConnectorStandard>
+            </connectorStandard>
+            <connectorFormat>
+                <ConnectorFormat>Cable</ConnectorFormat>
+            </connectorFormat>
+        </connectors>
+        <chargePointType>DC</chargePointType>
+        <ratings>
+            <maximumPower>200.0</maximumPower>
+            <guaranteedPower>40.0</guaranteedPower>
+            <nominalVoltage>240</nominalVoltage>
+        </ratings>
+        <userInterfaceLang>ENG</userInterfaceLang>
+        <maxReservation>30</maxReservation>
+        <meteringInfo>
+            <meteringType>software</meteringType>
+            <meteringVendor>DELND</meteringVendor>
+            <meteringVendorVersion>1.2.3</meteringVendorVersion>
+        </meteringInfo>
+    </chargePointInfoArray>
+</GetChargePointListResponse>

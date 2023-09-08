@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:chargePointInfo xmlns="http://ochp.eu/1.4.1" xmlns:ns2="local">
+    <evseId>DE*LND*ETEST*1</evseId>
+    <locationId>LOCATION_1</locationId>
+    <timestamp>
+        <DateTime>2021-12-23T09:34:56Z</DateTime>
+    </timestamp>
+    <locationName>TEST_LOCATION_1</locationName>
+    <locationNameLang>DEU</locationNameLang>
+    <chargePointAddress>
+        <houseNumber>195</houseNumber>
+        <address>Krefelder Strasse</address>
+        <city>Aachen</city>
+        <zipCode>52070</zipCode>
+        <country>DEU</country>
+    </chargePointAddress>
+    <chargePointLocation lat="50.78875499187955" lon="6.0946700982625925"/>
+    <timeZone>Europe/Berlin</timeZone>
+    <openingTimes>
+        <twentyfourseven>true</twentyfourseven>
+        <closedCharging>false</closedCharging>
+    </openingTimes>
+    <status>
+        <ChargePointStatusType>Planned</ChargePointStatusType>
+    </status>
+    <telephoneNumber>+492411811900</telephoneNumber>
+    <location>
+        <GeneralLocationType>on-street</GeneralLocationType>
+    </location>
+    <authMethods>
+        <AuthMethodType>RfidMifareCls</AuthMethodType>
+    </authMethods>
+    <connectors>
+        <connectorStandard>
+            <ConnectorStandard>IEC_62196_T2_COMBO</ConnectorStandard>
+        </connectorStandard>
+        <connectorFormat>
+            <ConnectorFormat>Cable</ConnectorFormat>
+        </connectorFormat>
+    </connectors>
+    <chargePointType>DC</chargePointType>
+    <ratings>
+        <maximumPower>50.0</maximumPower>
+    </ratings>
+</ns2:chargePointInfo>

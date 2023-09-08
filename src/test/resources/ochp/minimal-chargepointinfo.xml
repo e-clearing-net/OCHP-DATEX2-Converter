@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GetChargePointListResponse xmlns="http://ochp.eu/1.4.1">
+    <result>
+        <resultCode>
+            <resultCode>ok</resultCode>
+        </resultCode>
+        <resultDescription ns2:nil="true" xmlns:ns2="http://www.w3.org/2001/XMLSchema-instance"/>
+    </result>
+    <chargePointInfoArray>
+        <evseId>DE*LND*E12345</evseId>
+        <locationId>DELNDL10</locationId>
+        <locationName>Test Location Name 500</locationName>
+        <locationNameLang>ENG</locationNameLang>
+        <chargePointAddress>
+            <houseNumber>200B</houseNumber>
+            <address>Test Street Name</address>
+            <city>Test City</city>
+            <zipCode>ABCDE 1234</zipCode>
+            <country>DEU</country>
+        </chargePointAddress>
+        <chargePointLocation lat="50.000000" lon="-100.000000"/>
+        <openingTimes>
+            <regularHours weekday="1" periodBegin="06:00" periodEnd="22:00"/>
+            <regularHours weekday="2" periodBegin="06:00" periodEnd="22:00"/>
+            <closedCharging>false</closedCharging>
+        </openingTimes>
+        <location>
+            <GeneralLocationType>parking-lot</GeneralLocationType>
+        </location>
+        <authMethods>
+            <AuthMethodType>DirectCash</AuthMethodType>
+        </authMethods>
+        <connectors>
+            <connectorStandard>
+                <ConnectorStandard>Chademo</ConnectorStandard>
+            </connectorStandard>
+            <connectorFormat>
+                <ConnectorFormat>Cable</ConnectorFormat>
+            </connectorFormat>
+        </connectors>
+        <chargePointType>DC</chargePointType>
+    </chargePointInfoArray>
+</GetChargePointListResponse>

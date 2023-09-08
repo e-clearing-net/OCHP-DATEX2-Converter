@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns7:electricChargingPoint xmlns="http://datex2.eu/schema/3/common"
+                           xmlns:ns6="http://datex2.eu/schema/3/energyInfrastructure"
+                           xmlns:ns5="http://datex2.eu/schema/3/commonExtension" xmlns:ns7="local"
+                           xmlns:ns2="http://datex2.eu/schema/3/facilities"
+                           xmlns:ns4="http://datex2.eu/schema/3/locationReferencing"
+                           xmlns:ns3="http://datex2.eu/schema/3/locationExtension">
+    <ns2:externalIdentifier>DE*LND*ETEST*1</ns2:externalIdentifier>
+</ns7:electricChargingPoint>
